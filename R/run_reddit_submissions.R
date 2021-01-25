@@ -82,4 +82,4 @@ run_reddit_submissions <- function( subreddit = 'all',
   # Sys.sleep(sleep)
 }
 
-run_reddit_submissions(limit = 10, sleep = 5)
+# run_reddit_submissions(limit = 10, sleep = 5)
