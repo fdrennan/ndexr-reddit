@@ -1,0 +1,30 @@
+---
+output: github_document
+editor_options: 
+  chunk_output_type: console
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# ndexr
+```{r example}
+library(ndexr)
+
+walk(1000:1, function(time) {
+  message(glue("{time} steps left"))
+  try(run_reddit_submissions())
+})
+```
+
+```{r}
+
+````
